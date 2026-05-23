@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m http.server 8080)",
+      "Bash(pip show:*)",
+      "Bash(python -c \"import fitz; print\\('pymupdf ok'\\)\")",
+      "Bash(python -c \"from PIL import Image; print\\('pillow ok'\\)\")",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(cp p1.png p2.png)",
+      "Bash(cp p1.png p3.png)",
+      "Bash(cp p1.png p4.png)",
+      "Bash(cp p1.png p5.png)",
+      "WebFetch(domain:microwave.takealot-shop.online)",
+      "Bash(curl -s -L -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" \"https://microwave.takealot-shop.online/\")",
+      "Bash(curl -s -L -A \"Mozilla/5.0\" -o p1.png \"https://microwave.takealot-shop.online/p1.png\")",
+      "Bash(curl -s -L -A \"Mozilla/5.0\" -o p2.png \"https://microwave.takealot-shop.online/p2.png\")",
+      "Bash(curl -s -L -A \"Mozilla/5.0\" -o p3.png \"https://microwave.takealot-shop.online/p3.png\")",
+      "Bash(curl -s -L -A \"Mozilla/5.0\" -o p4.png \"https://microwave.takealot-shop.online/p4.png\")",
+      "Bash(curl -s -L -A \"Mozilla/5.0\" -o p5.png \"https://microwave.takealot-shop.online/p5.png\")"
+    ]
+  }
+}
